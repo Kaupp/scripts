@@ -11,7 +11,8 @@
 (function() {
     'use strict';
 
-    // CFG - Final
+// CFG - Final
+    
 var initialBetAmount = 5; //baştaki bet parası
 
 var betColor = 'black'; // başlangıç rengi
