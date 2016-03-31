@@ -1,14 +1,17 @@
 // ==UserScript==
 // @name         New Userscript
-// @namespace    http://www.csgodouble.com
-// @version      0.1
+// @namespace    https://github.com/Kaupp/scripts
+// @version      1
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.csgodouble.com
 // @grant        none
 // ==/UserScript==
 
-// CFG - Final
+(function() {
+    'use strict';
+
+    // CFG - Final
 var initialBetAmount = 5; //baştaki bet parası
 
 var betColor = 'black'; // başlangıç rengi
@@ -100,3 +103,4 @@ var currentBetAmount = initialBetAmount, //variableları çek, gerekenleri tanı
     $redButton = $("#panel1-7 .betButton"),
     $blackButton = $("#panel8-14 .betButton"),
     refreshIntervalId = setInterval(tick, 500);
+})();
