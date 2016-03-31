@@ -1,3 +1,13 @@
+// ==UserScript==
+// @name         New Userscript
+// @namespace    http://www.csgodouble.com
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        https://www.csgodouble.com
+// @grant        none
+// ==/UserScript==
+
 // CFG - Final
 var initialBetAmount = 5; //baştaki bet parası
 
