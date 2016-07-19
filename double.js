@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         csgodoublescript
 // @namespace    https://github.com/Kaupp/scripts
 // @version      1
-// @description  try to take over the world!
+// @description  csgodoublescript
 // @author       You
 // @match        https://www.csgodouble.com
 // @grant        none
